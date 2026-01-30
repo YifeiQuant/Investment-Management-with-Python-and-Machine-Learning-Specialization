@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Repo-specific additions (Coursera notebooks) ---
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter extra
+.ipynb_checkpoints/
+
+# Local secrets / configs (keep out of public repos)
+.env.*
+*.pem
+*.key
+
+# Optional: ignore future large/raw datasets (but keep current data/*.csv tracked)
+data/raw/
+data/external/
+*.parquet
+*.h5
+*.feather
